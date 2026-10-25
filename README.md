@@ -50,7 +50,7 @@ pip install -r requirements.txt
 proxy_ips = requests.get('代理ip获取地址').text
 ```
 
-> 推荐使用按量付费的动态住宅代理（如 [极量IP](https://www.juliangip.com)、[快代理](https://www.kuaidaili.com) 等），返回格式为 `ip:port:user:password`。
+> 推荐使用按量付费的动态住宅代理（如 [巨量IP](https://www.juliangip.com)、[快代理](https://www.kuaidaili.com) 等），返回格式为 `ip:port:user:password`。
 >
 > 如果不使用代理，`stock_zh_a_spot_em_proxy_strength.py` 的 `build_rotating_get` 中已内置 `include_direct=True` 直连兜底，可在低频场景下直接使用。
 
